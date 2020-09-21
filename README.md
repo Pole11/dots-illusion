@@ -22,6 +22,11 @@ For the animation I used:
 ## Explanation
 The only things you can do are admire the animation and use the slider to change the number of dots in the animation.
 
+## Images 
+![image](/images/screenshot-1.png)
+![image](/images/screenshot-2.png)
+
+
 
 
 
