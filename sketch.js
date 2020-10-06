@@ -19,11 +19,16 @@ function draw() {
   
   // n is the number of dots
   n = n_slider.value();
+  
   for (let i = 0; i < n; i++) {
-    // rotate every time you draw a new dot and then draw a cirle in a straight trajectory
+    rotate(PI/n);
+    line(-100,0, 100,0); // trajectory line
+  }
+  
+  for (let i = 0; i < n; i++) {
+    // rotate every time you draw a new dot and then draw a cirle and move it in a straight trajectory
     rotate(PI/n);
     x = cos(a + (n-i)*PI/n) * 100;
-    line(-100,0, 100,0);
     circle(x, 0, 10);
   }
   
